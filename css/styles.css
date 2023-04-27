@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#container{
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 900px;
+    padding: 20PX;
+    background-color: rgba(0, 0, 0, 0.89);
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 2px 30px 30px #fae25c9a;
+}
+
+.logo{
+    background-image: url(../img/LOGO.png);
+    width: 290px;
+    height: 145px;
+    margin: 0 auto;
+}
+
+.media{
+    border: 1px solid tomato;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 100px -9px #6375ce;
+}
+
+.media{
+    display: flex;
+}
+
+.media .box{
+    width: 400px;
+    margin: 12px;
+    height: 220px;
+}
+
+.ladoA{
+    background-color: black;
+    border-radius: 14px 0 0 14px;
+    border: 1px solid #54703d;
+}
+
+.ladoB{
+    background-color: black;
+    border-radius: 0 14px 14px 0;
+    border: 1px solid #54703d;
+}
+
+.box audio{
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+.box video{
+    width: 365px;
+    height: 220px;
+}
